@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="form">
+            <span id="logo">Fiber</span>
+            <h1>Create your Fiber account</h1>
+            <form>
+                <label>Your name</label><br>
+                <input type="text" placeholder="John Doe" class="box"><br>
+                <label>E-mail</label><br>
+                <input type="email" class="box" placeholder="john@example.com"><br>
+                <label>Password</label><br>
+                <div id="password-with-eye">
+                <input type="password" id="password" class="box" placeholder="At least 8 characters"><img src="Assets/eye-password.svg" id="eyepassword"></div><br>
+                <div id="checkbox-section">
+                <input type="checkbox" id="checkbox">&nbsp;<span id="text">By creating an account on Fiber, you agree to the <br><a href="#">Terms and Conditions</a>.</span><br>
+                </div><br>
+                <input type="button" id="button" value="Create Fiber Account" required><br>
+            </form>
+                <p>Already have an account?&nbsp;<a href="#">Sign in</a></p>
+        </div>
+        <div class="img-section">
+            <img src="Assets/Sign Up Image.png" alt="sign up">
+            <h2>Unparalleled Templates</h2>
+            <p>Crafted by a team of professional designers, our<br> templates are eunparalleled in the market.</p>
+            <div class="balls-section">
+                <span class="balls" id="ball-1"></span>
+                <span class="balls" id="ball-2"></span>
+                <span class="balls" id="ball-3"></span>
+                <span class="balls" id="ball-4"></span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
